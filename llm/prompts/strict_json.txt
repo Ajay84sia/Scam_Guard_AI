@@ -1,0 +1,33 @@
+SCAM DETECTION SYSTEM - STRICT JSON MODE
+
+Analyze the provided text message and classify it as either "Scam", "Not Scam", or "Uncertain".
+
+OUTPUT REQUIREMENTS:
+- Respond with ONLY valid JSON
+- No additional text, explanations, or formatting outside the JSON
+- Use exact field names as specified
+- Ensure all strings are properly escaped
+
+JSON SCHEMA:
+{
+  "label": "Scam | Not Scam | Uncertain",
+  "reasoning": "Brief explanation of classification decision",
+  "intent": "What the sender is trying to achieve",
+  "risk_factors": ["array", "of", "risk", "factors"]
+}
+
+CLASSIFICATION CRITERIA:
+- Scam: Contains deceptive, manipulative, or fraudulent intent
+- Not Scam: Legitimate communication with no malicious intent  
+- Uncertain: Ambiguous content that cannot be clearly classified
+
+RISK FACTORS TO IDENTIFY:
+- Urgency tactics
+- Financial requests
+- Impersonation
+- Suspicious links
+- Emotional manipulation
+- Poor grammar/spelling
+- Threats or pressure
+
+MESSAGE TO ANALYZE: 

@@ -1,0 +1,20 @@
+Simple Scam Detection
+
+Is this message a scam? Look for:
+✓ Requests for money/personal info
+✓ Urgent threats or pressure
+✓ Too-good-to-be-true offers
+✓ Impersonation of legitimate services
+
+Classify as:
+- Scam: Clearly fraudulent or deceptive
+- Not Scam: Appears legitimate 
+- Uncertain: Cannot determine clearly
+
+Respond in this format:
+{
+  "label": "Scam/Not Scam/Uncertain",
+  "reasoning": "Why you classified it this way",
+  "intent": "What the sender wants",
+  "risk_factors": ["list of concerns"]
+} 
