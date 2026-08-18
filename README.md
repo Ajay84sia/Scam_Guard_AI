@@ -112,19 +112,6 @@ Run:
 
 streamlit run streamlit/app.py
 
-📊 Evaluation
-
-The project supports labeled CSV evaluation with:
-
-Accuracy
-
-Recall
-
-F1-score
-
-Per-class performance
-
-python evaluate.py dataset.csv
 
 🔮 Future Improvements
 
